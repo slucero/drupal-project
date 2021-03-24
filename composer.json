@@ -19,7 +19,6 @@
         "php": ">=7.3",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/components": "^2.2",
         "drupal/core-recommended": "^9",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-vendor-hardening": "^9",
@@ -74,7 +73,15 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
-            }
+            },
+            "file-mapping": {
+                "[web-root]/sites/default/settings.php": {
+                    "mode": "replace",
+                    "path": "assets/sites/default/settings.php",
+                    "overwrite": false
+                }
+            },
+            "gitignore": true
         },
         "installer-paths": {
             "web/core": [
