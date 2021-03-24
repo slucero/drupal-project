@@ -1,0 +1,19 @@
+{
+  "generator-web-starter": {
+    "promptValues": {
+      "name": "drupal-project",
+      "platform": "Docker",
+      "dockerCms": "Drupal8",
+      "dockerSearch": "Elasticsearch",
+      "dockerCache": "Memcache",
+      "documentRoot": "web",
+      "useGesso": true,
+      "useCapistrano": false,
+      "shouldInstallDrupal": true,
+      "drupalProjectType": "drupal-composer/drupal-project:8.x-dev",
+      "esTag": "7.9.3",
+      "gessoShouldInstall": true
+    },
+    "projectName": "drupal-project"
+  }
+}
