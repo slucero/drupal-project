@@ -19,15 +19,15 @@
         "php": ">=7.3",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/core-recommended": "^9",
-        "drupal/core-composer-scaffold": "^9",
-        "drupal/core-vendor-hardening": "^9",
+        "drupal/core-recommended": "^8",
+        "drupal/core-composer-scaffold": "^8",
+        "drupal/core-vendor-hardening": "^8",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0"
     },
     "require-dev": {
         "drupal/console": "^1.0.2",
-        "drupal/core-dev": "^9",
+        "drupal/core-dev": "^8",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "conflict": {
