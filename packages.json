@@ -1,12 +1,22 @@
 {
   "packages": {
     "slucero/drupal-project": {
-      "1.0" : {
+      "8" : {
         "name": "slucero/drupal-project",
-        "version": "1.0",
-        "dist": {
-          "url": "https://github.com/slucero/drupal-project/archive/refs/heads/main.zip",
-          "type": "zip"
+        "version": "8",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/slucero/drupal-project",
+          "reference": "8.x"
+        }
+      },
+      "9" : {
+        "name": "slucero/drupal-project",
+        "version": "9",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/slucero/drupal-project",
+          "reference": "9.x"
         }
       }
     }
