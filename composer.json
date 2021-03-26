@@ -74,13 +74,6 @@
             "locations": {
                 "web-root": "web/"
             },
-            "file-mapping": {
-                "[web-root]/sites/default/settings.php": {
-                    "mode": "replace",
-                    "path": "assets/sites/default/settings.php",
-                    "overwrite": false
-                }
-            },
             "gitignore": true
         },
         "installer-paths": {
