@@ -1,21 +1,29 @@
 {
   "packages": {
-    "slucero/drupal-project": {
+    "forumone/drupal-project": {
       "8" : {
-        "name": "slucero/drupal-project",
+        "name": "forumone/drupal-project",
         "version": "8",
+        "dist": {
+          "url": "https://github.com/forumone/drupal-project/archive/refs/heads/8.x.zip",
+          "type": "zip"
+        }
         "source": {
           "type": "git",
-          "url": "https://github.com/slucero/drupal-project",
+          "url": "https://github.com/forumone/drupal-project",
           "reference": "8.x"
         }
       },
       "9" : {
-        "name": "slucero/drupal-project",
+        "name": "forumone/drupal-project",
         "version": "9",
+        "dist": {
+          "url": "https://github.com/forumone/drupal-project/archive/refs/heads/9.x.zip",
+          "type": "zip"
+        }
         "source": {
           "type": "git",
-          "url": "https://github.com/slucero/drupal-project",
+          "url": "https://github.com/forumone/drupal-project",
           "reference": "9.x"
         }
       }
