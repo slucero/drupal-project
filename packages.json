@@ -7,7 +7,7 @@
         "dist": {
           "url": "https://github.com/forumone/drupal-project/archive/refs/heads/8.x.zip",
           "type": "zip"
-        }
+        },
         "source": {
           "type": "git",
           "url": "https://github.com/forumone/drupal-project",
@@ -20,7 +20,7 @@
         "dist": {
           "url": "https://github.com/forumone/drupal-project/archive/refs/heads/9.x.zip",
           "type": "zip"
-        }
+        },
         "source": {
           "type": "git",
           "url": "https://github.com/forumone/drupal-project",
