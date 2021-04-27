@@ -27,8 +27,7 @@
     },
     "require-dev": {
         "drupal/console": "^1.0.2",
-        "drupal/core-dev": "^9",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "drupal/core-dev": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"
