@@ -8,6 +8,8 @@ RUN f1-ext-install pecl:memcached
 
 FROM composer:2 AS composer
 
+COPY ["scripts", "scripts"]
+
 RUN mkdir -p web
 
 COPY ["composer.json", "composer.lock", "./"]
