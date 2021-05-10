@@ -15,7 +15,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-recommended": "^8",
         "drupal/core-composer-scaffold": "^8",
-        "drupal/core-vendor-hardening": "^8",
+        "drupal/core-vendor-hardening": "^9",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "joachim-n/composer-manifest": "^1",
         "vlucas/phpdotenv": "^4.0"
