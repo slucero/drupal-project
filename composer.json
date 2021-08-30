@@ -22,8 +22,10 @@
         "vlucas/phpdotenv": "^4.0"
     },
     "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "drupal/console": "^1.0.2",
-        "drupal/core-dev": "^9"
+        "drupal/core-dev": "^9",
+        "phpspec/prophecy-phpunit": "^2"
     },
     "conflict": {
         "drupal/drupal": "*"
